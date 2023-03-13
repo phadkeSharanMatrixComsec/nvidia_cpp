@@ -37,5 +37,6 @@ int main()
     
 
     cout <<"Nvidia GPU Name : " <<name <<endl;
+    getchar();
 
 }
