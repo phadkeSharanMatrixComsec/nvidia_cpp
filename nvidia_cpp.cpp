@@ -6,7 +6,6 @@ using namespace std;
 
 int main()
 {
-    cout <<"GPU Model ";
     #if defined(__linux__) 
     system("nvidia-smi --query-gpu=name --format=csv,noheader");
 
